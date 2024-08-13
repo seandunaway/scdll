@@ -9,9 +9,9 @@ let args = parseArgs({
 		address: {short: 'a', type: 'string', default: 'localhost'},
 		port: {short: 'p', type: 'string', default: '22903'}
 	},
-	allowPositionals: true,
+	strict: false,
 })
-let address = args.values.address
+let address = /** @type {string} */ (args.values.address)
 let port = parseInt(/** @type {string} */ (args.values.port))
 let command = args.positionals[0]
 
