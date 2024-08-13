@@ -15,9 +15,9 @@ npm uninstall -g @seandunaway/scdll
 ## usage
 ```
 % scdll -h
-usage: [-p <port>] <deny | allow>
+usage: [-p <port>] <unload | load>
 
-% scdll deny
+% scdll unload
 
-% scdll allow
+% scdll load
 ```

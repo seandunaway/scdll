@@ -17,14 +17,14 @@ let command = args.positionals[0]
 
 let message = ''
 switch (command) {
-	case 'deny':
+	case 'unload':
 		message = 'RELEASE_ALL_DLLS'
 		break
-	case 'allow':
+	case 'load':
 		message = 'ALLOW_LOAD_ALL_DLLS'
 		break
 	default:
-		console.info('usage: [-p <port>] <deny | allow>')
+		console.info('usage: [-p <port>] <unload | load>')
 		exit(1)
 }
 
