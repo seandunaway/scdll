@@ -24,7 +24,7 @@ switch (command) {
 		message = 'ALLOW_LOAD_ALL_DLLS'
 		break
 	default:
-		console.info('usage: [-p <port>] <unload | load>')
+		console.info('usage: [-a <address>] [-p <port>] <unload | load>')
 		exit(1)
 }
 
