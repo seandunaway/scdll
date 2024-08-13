@@ -1,0 +1,6 @@
+{
+	"name": "@seandunaway/scdll",
+	"version": "1.0.0",
+	"bin": "./index.mjs",
+	"repository": "github:seandunaway/scdll"
+}
